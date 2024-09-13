@@ -38,8 +38,8 @@ $string['check_password_description'] = 'Saisissez votre mot de passe ci-dessous
 $string['check_password_input_placeholder'] = 'Entrer le mot de passe';
 $string['check_password_submit_btn'] = 'Tester';
 $string['check_password_status_length'] = 'Au moins 8 caractères';
-$string['check_password_status_uppercase'] = ' Un chiffre';
-$string['check_password_status_number'] = 'Une majuscule';
+$string['check_password_status_uppercase'] = 'Une majuscule';
+$string['check_password_status_number'] = 'Un chiffre ';
 $string['check_password_status_special'] = 'Un caractère spécial';
 
 
