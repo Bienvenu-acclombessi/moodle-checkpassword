@@ -1,0 +1,67 @@
+.check_password_password-container {
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+    /* margin: 50px auto; */
+}
+.check_password_password-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+.check_password_password-toggle {
+    cursor: pointer;
+    margin-left: -30px;
+}
+.check_password_password-strength {
+    height: 6px;
+    width: 300px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+.check_password_password-strength-bar {
+    height: 100%;
+    width: 0;
+    background-color: red;
+    transition: width 0.5s ease;
+}
+.check_password_password-requirements {
+    list-style-type: none;
+    padding: 0;
+}
+.check_password_password-requirements li i {
+    color: red;
+}
+.check_password_password-requirements li.valid i {
+    color: green;
+}
+
+.check_password_password_input_div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check_password_hidden{
+    display: none;
+}
+.check_password_messages{
+    width: 100%;
+}
+
+.check_password_heading{
+    font-size: 2rem;
+    line-height: 2.125rem;
+    font-family: inherit, sans-serif;
+    letter-spacing: -0.01rem;
+    font-weight: 700;
+}
+
+.check_password_heading + p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: inherit, sans-serif;
+    font-weight: 400;
+    
+}
